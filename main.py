@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from rag_pipeline import ask_question
-from logger import log_sample
+#from logger import log_sample
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -21,6 +21,6 @@ def query_rag(request: QueryRequest):
         "contexts": result["contexts"]
     }
 
-    log_sample(sample)
+    #log_sample(sample)
 
     return result
