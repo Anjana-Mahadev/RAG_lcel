@@ -6,14 +6,6 @@ langchain-core
 langchain-community
 langchain-groq
 langchain-text-splitters
-langchain-huggingface
-
-faiss-cpu
-sentence-transformers
-huggingface-hub
-
-ragas
-datasets
 
 python-dotenv
 pandas
